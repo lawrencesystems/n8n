@@ -35,17 +35,17 @@ TZ=America/Detroit
 N8N_HOST=changeHostName
 ```
 - **N8N_RUNNERS_AUTH_TOKEN**
--- Used to authenticate task runners
--- Generate a long, random, alphanumeric value
+  - Used to authenticate task runners
+  - Generate a long, random, alphanumeric value
 - **ENCRYPTION_KEY**
---Protects credentials and sensitive data in the database
---If you lose this, encrypted data is gone. Permanently.
+  - Protects credentials and sensitive data in the database
+  - If you lose this, encrypted data is gone. Permanently.
 - **TZ**
--- Container timezone
--- Set this to match your environment unless you enjoy timestamp archaeology
+  - Container timezone
+  - Set this to match your environment unless you enjoy timestamp archaeology
 - **N8N_HOST**
--- The hostname users will access n8n from
--- Example: n8n.example.com
+  - The hostname users will access n8n from
+  - Example: n8n.example.com
 ### Postgres
 ```
 POSTGRES_NON_ROOT_USER=changeUser
