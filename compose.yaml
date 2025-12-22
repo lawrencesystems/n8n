@@ -15,7 +15,6 @@ x-shared: &shared
     # --- Execution/Queue mode ---
     - EXECUTIONS_MODE=queue
     - OFFLOAD_MANUAL_EXECUTIONS_TO_WORKERS=true
-    - QUEUE_HEALTH_CHECK_ACTIVE=true
     # --- Redis (Bull queue backend) ---
     - QUEUE_BULL_REDIS_HOST=redis
     - QUEUE_BULL_REDIS_PORT=6379
